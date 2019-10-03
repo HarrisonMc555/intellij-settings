@@ -1,0 +1,9 @@
+<toolSet name="Editors">
+  <tool name="Emacs" description="Emacs text editor" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/Applications/Emacs Client.app/Contents/MacOS/Emacs Client" />
+      <option name="PARAMETERS" value="+$LineNumber$ $FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
